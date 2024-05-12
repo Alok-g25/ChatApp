@@ -1,0 +1,44 @@
+.background{
+      background-color: rgb(58, 15, 179);
+}
+
+.mid-section{
+      height: 434px;
+}
+.first,.second{
+      width: 100%;
+}
+.first{
+      /* background-color :rgb(250, 244, 244); */
+      overflow: auto;
+      height: 90%;
+}
+.first::-webkit-scrollbar{
+      display: none;
+}
+.second{
+      height: 10%;
+      /* background-color: green; */
+}
+.left,.right{
+      /* display:block; */
+      width: 55%;
+      float: left;
+      margin: 10px 0;
+}
+.right{
+      float: right;
+}
+.center{
+      width: 55%;
+      clear: both;
+      margin:10px auto;
+      text-align: center;
+      
+}
+
+@media screen and (max-width: 480px) {
+      .mid-section{
+            height: 630px;
+      }
+    }
